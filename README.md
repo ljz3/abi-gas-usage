@@ -17,29 +17,29 @@ TODO: Insert article link here
 
 ## Gas Usage Chart
 
-### Gas Usage for each function call
+### Gas usage for each function call
 
-    | Contract                          | Method                                            | Gas    |
-    |-----------------------------------|---------------------------------------------------|--------|
-    | Arr1ByteABIEncode                 | testAbiEncodeArr1Byte (1 Element)                 |  22897 |
-    | Arr1ByteABIEncodePacked           | testAbiEncodePackedArr1Byte (1 Element)           |  22688 |
-    | Arr1ByteABIEncode                 | testAbiEncodeArr1Byte (100 Element)               |  67638 |
-    | Arr1ByteABIEncodePacked           | testAbiEncodePackedArr1Byte (100 Element)         |  67424 |
-    | Arr32BytesABIEncode               | testAbiEncodeArr32Bytes (1 Element)               |  22827 |
-    | Arr32BytesABIEncodePacked         | testAbiEncodePackedArr32Bytes (1 Element)         |  22618 |
-    | Arr32BytesABIEncode               | testAbiEncodeArr32Bytes (100 Element)             |  60638 |
-    | Arr32BytesABIEncodePacked         | testAbiEncodePackedArr32Bytes (100 Element)       |  60424 |
-    | NoPaddingABIEncodePackedV1        | testAbiEncodePackedNoPadding                      |  21636 |
-    | NoPaddingABIEncodePackedV2        | testAbiEncodePackedNoPadding                      |  21519 |
-    | PaddingABIEncodeV1                | testAbiEncodePadding                              |  21523 |
-    | PaddingABIEncodeV2                | testAbiEncodePadding                              |  21539 |
-    | ThirtyTwoBytesABIEncodePackedV1   | testAbiEncodePacked32Bytes                        |  21523 |
-    | ThirtyTwoBytesABIEncodePackedV2   | testAbiEncodePacked32Bytes                        |  21539 |
-    | ThirtyTwoBytesABIEncodeV1         | testAbiEncode32Bytes                              |  21523 |
-    | ThirtyTwoBytesABIEncodeV2         | testAbiEncode32Bytes                              |  21539 |
+    | Contract                          | Method                                          | Gas    |
+    |-----------------------------------|-------------------------------------------------|--------|
+    | Arr1ByteABIEncode                 | testAbiEncodeArr1Byte (1 Element)               |  22897 |
+    | Arr1ByteABIEncodePacked           | testAbiEncodePackedArr1Byte (1 Element)         |  22688 |
+    | Arr1ByteABIEncode                 | testAbiEncodeArr1Byte (100 Element)             |  67638 |
+    | Arr1ByteABIEncodePacked           | testAbiEncodePackedArr1Byte (100 Element)       |  67424 |
+    | Arr32BytesABIEncode               | testAbiEncodeArr32Bytes (1 Element)             |  22827 |
+    | Arr32BytesABIEncodePacked         | testAbiEncodePackedArr32Bytes (1 Element)       |  22618 |
+    | Arr32BytesABIEncode               | testAbiEncodeArr32Bytes (100 Element)           |  60638 |
+    | Arr32BytesABIEncodePacked         | testAbiEncodePackedArr32Bytes (100 Element)     |  60424 |
+    | NoPaddingABIEncodePackedV1        | testAbiEncodePackedNoPadding                    |  21636 |
+    | NoPaddingABIEncodePackedV2        | testAbiEncodePackedNoPadding                    |  21519 |
+    | PaddingABIEncodeV1                | testAbiEncodePadding                            |  21523 |
+    | PaddingABIEncodeV2                | testAbiEncodePadding                            |  21539 |
+    | ThirtyTwoBytesABIEncodePackedV1   | testAbiEncodePacked32Bytes                      |  21523 |
+    | ThirtyTwoBytesABIEncodePackedV2   | testAbiEncodePacked32Bytes                      |  21539 |
+    | ThirtyTwoBytesABIEncodeV1         | testAbiEncode32Bytes                            |  21523 |
+    | ThirtyTwoBytesABIEncodeV2         | testAbiEncode32Bytes                            |  21539 |
 
 
-### Gas Usage for contract deployments
+### Gas usage for contract deployments
 
     | Contract                         |  Gas        |
     | -------------------------------- | ----------- |
